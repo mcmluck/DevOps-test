@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Monster DevOps Technical Test</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Monster DevOps Technical Test</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:23:13 +1100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cost</title>
+      <link>/posts/cost/</link>
+      <pubDate>Tue, 01 Dec 2020 21:23:13 +1100</pubDate>
+      
+      <guid>/posts/cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reliability</title>
+      <link>/posts/reliability/</link>
+      <pubDate>Tue, 01 Dec 2020 21:23:04 +1100</pubDate>
+      
+      <guid>/posts/reliability/</guid>
+      <description>The solution uses a combination of S3 and Cloudfront to provide a highly available solution. It is available across region due to the nature of S3 and</description>
+    </item>
+    
+    <item>
+      <title>Maintability</title>
+      <link>/posts/maintability/</link>
+      <pubDate>Tue, 01 Dec 2020 21:04:21 +1100</pubDate>
+      
+      <guid>/posts/maintability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/posts/security/</link>
+      <pubDate>Tue, 01 Dec 2020 16:27:50 +1100</pubDate>
+      
+      <guid>/posts/security/</guid>
+      <description>In this solution, all the content is stored in S3. The S3 has a bucket policy to not allow it to be accessed directly through the S3 link and can only be accessed through Cloudfront URLs. Cloudfront is used to allow for HTTPS redirection to improve security and ensure no unecrypted traffic is accessing the webpage. Additionally this means that files are not open to the public to ensure security.</description>
+    </item>
+    
+  </channel>
+</rss>

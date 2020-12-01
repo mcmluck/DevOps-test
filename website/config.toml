@@ -1,0 +1,6 @@
+languageCode = "en-us"
+title = "Monster DevOps Technical Test"
+theme = "ananke"
+
+[params]
+  description = "Static Site on AWS"
