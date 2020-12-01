@@ -2,7 +2,7 @@
 title: "Monster DevOps Technical Test"
 description: "Static Site on AWS"
 ---
-The solution here is a static site hosted on S3 which is behind Cloudfront. If needed Route53 can be setup to redirect to the cloudfront URL. All infrastructure is setup using AWS CDK and stored in [github](). This solution was selected because of the following reasons:
+The solution here is a static site hosted on S3 which is behind Cloudfront. If needed Route53 can be setup to redirect to the cloudfront URL. All infrastructure is setup using AWS CDK and stored in [github](https://github.com/mcmluk1/DevOps-test). This solution was selected because of the following reasons:
 
 Security
 ======

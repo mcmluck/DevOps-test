@@ -100,7 +100,7 @@
     <main class="pb7" role="main">
       
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    <p>The solution here is a static site hosted on S3 which is behind Cloudfront. If needed Route53 can be setup to redirect to the cloudfront URL. All infrastructure is setup using AWS CDK and stored in <a href="">github</a>. This solution was selected because of the following reasons:</p>
+    <p>The solution here is a static site hosted on S3 which is behind Cloudfront. If needed Route53 can be setup to redirect to the cloudfront URL. All infrastructure is setup using AWS CDK and stored in <a href="https://github.com/mcmluk1/DevOps-test">github</a>. This solution was selected because of the following reasons:</p>
 <h1 id="security">Security</h1>
 <p>In this solution, all the content is stored in S3. The S3 has a bucket policy to not allow it to be accessed directly through the S3 link and can only be accessed through Cloudfront URLs. Cloudfront is used to allow for HTTPS redirection to improve security and ensure no unecrypted traffic is accessing the webpage. Additionally this means that files are not open to the public to ensure security.</p>
 <h1 id="reliability">Reliability</h1>
